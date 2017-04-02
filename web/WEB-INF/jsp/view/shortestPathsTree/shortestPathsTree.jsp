@@ -849,7 +849,7 @@ The edges that belong to the Shortest Path Tree are colored blue, the other edge
       <form name="initForm" id="initForm">
         <input type="submit" name="search-btn" value="Init">
       </form>
-      <p>Click here to find all strongly connected components</p>
+      <p>Click here to find the largest strongly connected component</p>
       <form name="largestSccForm" id="largestSccForm">
         <input type="submit" name="search-btn" value="Find largest SCC">
       </form>
