@@ -1,5 +1,5 @@
 # dijkstra-anim
-Java based animated demonstration of Dijkstra algorithm applied to build a Shortest Paths Tree  on a strongly connected directed graph
+Java based animated demonstration of Dijkstra algorithm applied to build a Shortest Paths Tree on a strongly connected directed graph
 
 I present here a Java based demonstration of the Dijkstra algorithm that builds a Shortest Paths Tree on a given weighted directed graph.
 
@@ -25,8 +25,22 @@ The distance to the source is displayed for each vertex at each step.
 
 All vertices outside the source are initialized with distance 1000.
 
-When deployed on Tomcat the context root is:
+# Launching the demo
+To launch the demo run the command `mvn spring-boot:run` in project directory. When the application has started open a browser and hit URL `localhost:8080/dijkstra-shortest-path`.
 
-dikstra-shortest-path
+Here are some screen shots that can be seen during the demo:
+
+Initial graph
+![alt text](images/initGraph.png "Initial graph")
+
+Largest strongly connected component
+![alt text](images/lSCC.png "Largest strongly connected component")
+
+Animation step
+![alt text](images/animStep.png "Animation step")
+
+Animation completed
+![alt text](images/animCompleted.png "Animation completed")
+
 
 Dominique Ubersfeld, Cachan, France
