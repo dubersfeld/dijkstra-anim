@@ -42,5 +42,8 @@ Animation step
 Animation completed
 ![alt text](images/animCompleted.png "Animation completed")
 
+For a video demo follow this link:
+
+https://youtu.be/8ZsjPdRg_iY 
 
 Dominique Ubersfeld, Cachan, France
